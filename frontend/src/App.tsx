@@ -104,16 +104,26 @@ function App() {
       <div className="w-full max-w-lg">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="flex items-center justify-center gap-3 mb-2">
-            <div className="w-8 h-8 bg-red-900 rounded-lg flex items-center justify-center">
-              <FileText className="w-4 h-4 text-white" />
-            </div>
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <svg className="w-10 h-10 text-white" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="50" cy="50" r="46" stroke="currentColor" strokeWidth="4"/>
+              <ellipse cx="50" cy="50" rx="46" ry="20" stroke="currentColor" strokeWidth="3.5" transform="rotate(-30 50 50)"/>
+              <ellipse cx="50" cy="50" rx="46" ry="20" stroke="currentColor" strokeWidth="3.5" transform="rotate(30 50 50)"/>
+              <ellipse cx="50" cy="50" rx="46" ry="20" stroke="currentColor" strokeWidth="3.5"/>
+              <circle cx="50" cy="50" r="4" fill="currentColor"/>
+              <circle cx="26" cy="35" r="3" fill="currentColor"/>
+              <circle cx="74" cy="35" r="3" fill="currentColor"/>
+              <circle cx="26" cy="65" r="3" fill="currentColor"/>
+              <circle cx="74" cy="65" r="3" fill="currentColor"/>
+              <circle cx="50" cy="24" r="3" fill="currentColor"/>
+              <circle cx="50" cy="76" r="3" fill="currentColor"/>
+            </svg>
             <h1 className="text-2xl font-bold text-white tracking-tight">
-              Flypower PDF Generator
+              Flypower
             </h1>
           </div>
-          <p className="text-zinc-500 text-sm">
-            Convert HTML flyovers to PDF with clickable links preserved
+          <p className="text-zinc-400 text-sm">
+            HTML → PDF with clickable links preserved
           </p>
         </div>
 
