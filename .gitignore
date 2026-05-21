@@ -4,5 +4,4 @@ __pycache__
 *.pyc
 .env
 .env.local
-.env.production
 test_output.pdf
